@@ -1,0 +1,17 @@
+# Ortam değişkenleri / gizli bilgiler
+.env
+
+# Bot veri dosyası (kilit listesi + istatistikler) - kişisel/sunucuya özel
+uwulock_data.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Editör / OS
+.vscode/
+.idea/
+.DS_Store
