@@ -139,7 +139,7 @@ def total_locked_count() -> int:
 async def update_presence():
     total = total_locked_count()
     if total == 0:
-        text = "kimse uwulanmadı (şimdilik) 😏"
+        text = "kimse uwulanmadı 💔"
     elif total == 1:
         text = "1 kişi uwulandı 💕"
     else:
@@ -211,16 +211,16 @@ WORD_SUBSTITUTIONS = {
     "değil": "diil",
     "değilim": "diilim",
     "değildir": "diildir",
-    "tamam": "tamamcığım",
+    "tamam": "tamaaawm",
     "evet": "eveet",
     "abi": "abicim",
     "abla": "ablacım",
     "kanka": "kankacım",
-    "ya": "yaaa",
+    "ya": "yiaaa",
     "yok": "yokk",
     "çok": "çokk",
-    "iyi": "iyicim",
-    "kötü": "kötücüm",
+    "iyi": "iyii",
+    "kötü": "kötüüü",
 }
 
 _WORD_SUB_PATTERN = re.compile(
@@ -370,7 +370,7 @@ async def mimic_message(message: discord.Message):
 # ---------------- EVENTLER ----------------
 @bot.event
 async def on_ready():
-    print(f"{bot.user} olarak giriş yapıldı!")
+    print(f"{bot.user} olarak giriş yapıldı, uwulamaya hazır.")
     await update_presence()
 
 
@@ -450,7 +450,7 @@ async def uwulockall_cmd(ctx):
     added = lock_users_bulk(ctx.guild.id, targets)
     await update_presence()
     await ctx.send(
-        f"🔒 Sunucudaki **{added}** kişi uwulocklandı! Artık herkes UwU konuşacak~ "
+        f"🔒 Sunucudaki **{added}** kişi **uwulocklandı!** Artık herkes UwU konuşacak~ "
         f"*kuyruğunu sallar*"
     )
 
@@ -527,7 +527,7 @@ async def uwuhelp_cmd(ctx):
 
 @bot.command(name="botukapat", aliases=["shutdown"])
 async def botukapat_cmd(ctx):
-    await ctx.send("Bot tamamen kapatılıyor... görüşürüz! 👋")
+    await ctx.send("Bot tamamen kapatılıyor...")
     await bot.close()
 
 
