@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="images/banner.png" alt="uwulock banner" width="600">
+</p>
+
 # UwULock Bot 🔒💕
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
