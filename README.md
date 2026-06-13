@@ -9,10 +9,9 @@ kişi mesaj attığında bot mesajını siler ve aynı isim/avatar ile
 **uwu'laştırılmış** halini webhook üzerinden tekrar gönderir (mesajın
 yanındaki "APP" etiketi webhook olduğunu gösterir).
 
-> ⚠️ **Sorumlu kullanım**: Bu bot şaka/arkadaş grubu amaçlıdır. Lütfen
-> sadece bunu istemediğini bilmeyen/rahatsız olmayan arkadaşlarınla, onların
-> izniyle kullan. Sunucu sahibi olmadığın yerlerde veya rızası olmayan
-> kişilerde kullanma.
+> ⚠️ **Sorumlu kullanım**: Bu bot şaka amaçlıdır. Lütfen
+> bunu istemeyen arkadaşlarınızla kullanmayın. Sunucu sahibi olmadığınız yerlerde veya rızası olmayan
+> kişilerde kullanmayın.
 
 ## Özellikler
 
