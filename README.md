@@ -27,7 +27,7 @@ yanındaki "APP" etiketi webhook olduğunu gösterir).
 
 ## 1. Discord Bot Oluşturma
 
-1. https://discord.com/developers/applications adresine git, **New Application**.
+1. https://discord.com/developers/applications adresine git, **New Application**'a tıkla.
 2. Sol menüden **Bot** sekmesine gir, **Reset Token** ile token'ı al (bunu kimseyle paylaşma!).
 3. Aynı sayfada **Privileged Gateway Intents** kısmından şunları aç:
    - `MESSAGE CONTENT INTENT`
