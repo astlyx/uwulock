@@ -150,3 +150,4 @@ Büyük bir değişiklik yapmadan önce bir issue açıp tartışmak iyi olur.
 
 Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
 
+## Ast tarafından ❤️ ile hazırlandı
